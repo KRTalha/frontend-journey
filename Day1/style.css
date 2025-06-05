@@ -1,0 +1,19 @@
+body{
+  background-color:rgb(73, 70, 234);
+  padding : 10px 40px
+}
+h1{
+  font-Family:Arial;
+  color : Red;
+  margin-left:290px  
+}
+.webImg{
+  width: 100%;
+}
+.enter-button{
+  background-color:rgb(179, 115, 115);
+  color:rgb(201, 201, 226);
+  border-radius:5px;
+  border-style:none;
+  padding:5px 10px;
+}
