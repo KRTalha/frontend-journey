@@ -1,0 +1,123 @@
+
+body{
+  font-family:'Segeo UI';
+  font-size:14px;
+  color:#222;
+  margin:0;
+}
+header img{
+  height:20px
+}
+.header-left img{
+  height :30px
+}
+
+header{
+  display:flex;
+  justify-content:space-between;
+  padding:10px 40px;
+  align-items:center;
+  background-color:#fff;
+  border-bottom:1px solid #ebebeb;
+  position:sticky;
+  top:0;
+  z-index:1000
+}
+.header-middle{
+  display:flex;
+  flex-grow:1;
+  justify-content:center;
+}
+.airbnb-search-input{
+  padding:10px 20px;
+  border:1px solid #ddd;
+  border-radius:24px;
+  width :300px;
+  font: size 14px;
+  outline:none;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.18), 0 4px 12px rgba(0,0,0,0.05);
+  transition : box-shadow 0.2s ease;
+}
+.airbnb-search-input:hover{
+  box-shadow:0 2px 4px rgba(0,0,0,0.8), 0 6px 16px rgba(0,0,0,0.12);
+}
+
+.header-right{
+ display:flex;
+ align-items:center;
+ gap:15px
+}
+.header-right .host-link{
+ 
+  text-decoration:none;
+  color:#222;
+  font-weight:600;
+  padding:8px 12px;
+  border-radius:20px;
+  transition:background-color 0.2s ease;
+}
+.header-right .host-link:hover{
+  background-color:#f1e4e4;
+}
+.header-right .user-menu{
+  display:flex;
+  align-items:center;
+  gap:8px;
+  border:1px solid #ddd;
+  border-radius:20px;
+  padding:8px 12px;
+  cursor:pointer;
+  transition:box-shadow 0.2s ease;
+}
+.header-right .user-menu:hover{
+  box-shadow:0 2px 4px rgba(0,0,0,0.8);
+}
+/* }
+.left-section{
+  display:flex;
+  flex:1;
+   max-width:200px;
+  
+
+}
+.middle-section{
+  display:flex;
+  flex:1;
+  justify-content:space-between;
+  max-width:400px
+  
+}
+.right-section{
+  display:flex;
+  flex:1;
+  float:right;
+  justify-content:space-between;
+  margin-left:90px;
+   max-width:200px;
+  
+  
+}
+.main{
+  display:flex;
+  justify-content:space-between;
+}
+
+.search-bar{
+ display:flex;
+   align-items:center;
+  justify-content:center;
+  
+}
+
+.airsearch{
+  padding:10px 90px;
+  border-radius:10px;
+  border-width:1px;
+  box-shadow:5px 5px  rgb(rgb(161, 109, 109) .05)
+}
+
+body{
+  font-family:'Segoe UI';
+  color:rgb(10, 20, 29);
+  font-size:10px
+} */
